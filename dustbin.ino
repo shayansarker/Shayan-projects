@@ -62,7 +62,7 @@ dist = (duration/2) / 29.1;
 void loop() 
 { 
   for (int i=0;i<=2;i++) 
-{   //average distance
+{  
     measure();               
    
 aver[i]=dist;            
