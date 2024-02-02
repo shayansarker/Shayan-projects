@@ -1,9 +1,9 @@
-const int trigPin = 5; // Trigger pin
-const int echoPin = 6; // Echo pin
+const int trigPin = 5; 
+const int echoPin = 6; 
   
 
-// Define constants for the Servo motor
-const int servoPin = 9; // Servo control pin
+
+const int servoPin = 9; 
 
 
 #include <Servo.h>  
@@ -73,7 +73,7 @@ aver[i]=dist;
 
 
 if ( dist < 150 ) {
-//Change distance as per your need
+
  servo.attach(servoPin);
  
  delay(1);
