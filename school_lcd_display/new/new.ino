@@ -12,8 +12,8 @@ void setup() {
 
 //By Shayan Sarker
 void loop() {
-  static const char staticText[] = "By Shayan Sarker";
-  static char scrollingText[] = "Grade:IV Section:A(boys)";
+  static const char staticText[] = "Station of Dhaka";
+  static char scrollingText[] = "By:Nawaf, Shayan, Rafid";
 
   // Display static text on the first line
   lcd.setCursor(0, 0);
